@@ -61,7 +61,7 @@ function draw()
       score=score+100
       console.log(score)
       virusGroup.destroyEach();
-      if(score>100)
+      if(score>500)
       {
       gameState=1
       }
